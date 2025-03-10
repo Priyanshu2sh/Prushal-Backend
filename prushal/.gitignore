@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / package files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.egg-info/
+*.egg
+
+# Django specific files
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# Logs and debug files
+*.log
+logs/
+debug.log
+
+# Ignore environment variables and secrets
+.env
+*.env
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignore compiled/migrated files
+migrations/**/0001_initial.py
+migrations/**/__pycache__/
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+*.cover
+coverage.xml
+
+# Ignore Docker related files
+*.dockerfile
+docker-compose.override.yml
+
+# Ignore node_modules if using JavaScript frontend
+node_modules/
+
+# Ignore deployment related files
+*.pem
+*.key
